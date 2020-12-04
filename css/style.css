@@ -2,3 +2,27 @@
 {
     padding: 5rem;
 }
+
+body{
+
+    background-color: aliceblue;
+}
+
+h4{
+    text-align:center;
+}
+
+.nav-item
+{
+    padding: 0 18px;   
+}
+
+.nav-link
+{
+    font-size:1.2rem;
+}
+
+.navbar-brand
+{
+    font-size: 2rem;
+}

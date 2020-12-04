@@ -19,7 +19,7 @@
     <!-- font-awesome  -->
     <script src="https://use.fontawesome.com/d8a40b24d8.js"></script>
     <!-- font-awesome  -->
-    <title>Nimmy UrlShortner</title>
+    <title>UrlShortner</title>
 </head>
 
 <body>
@@ -47,52 +47,64 @@
 
 
     <div class="container-fluid">
-        <form autocomplete="off">
-            <div class="row">
-                <div class="col">
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                            required>
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                            else.</small>
+        <div class="card bg-light col-lg-4 col-sm-10" style="margin:auto;">
+            <div class="card-header">
+                <h4>Login</h4>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                   <form autocomplete="off">
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" required>
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                    anyone
+                                    else.</small>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" required>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" required>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="form-group">
-                        <button type="button" id="loginbtn" onclick="login()" class="btn btn-dark">Login</button>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <button type="button" id="loginbtn" onclick="login()"
+                                    class="btn btn-block btn-dark">Login</button>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                    <div class="row text-center">
+                        <div class="col">
+                            <p>
+                                <small>
+                                    Forgot your Password?<br>
+                                    <a href="Auth/resetpassword.html">Reset Password</a>
+                                </small>
+                            </p>
+                        </div>
+                        <div class="col">
+                            <p>
+                                <small>
+                                    Don't have an Account??<br>
+                                    <a href="./signup.html">Sign Up Now</a>
+                                </small>
+                            </p>
+                        </div>
+                     </div>
+                  </form>
+                </p>
             </div>
-            <div class="row text-center">
-                <div class="col">
-                    <p>
-                        <small>
-                            Forgot your Password?<br>
-                            <a href="Auth/resetpassword.html">Reset Password</a>
-                        </small>
-                    </p>
-                </div>
-                <div class="col">
-                    <p>
-                        <small>
-                            Don't have an Account??<br>
-                            <a href="./signup.html">Sign Up Now</a>
-                        </small>
-                    </p>
-                </div>
-            </div>
-        </form>
+        </div>
+
     </div>
 
 
