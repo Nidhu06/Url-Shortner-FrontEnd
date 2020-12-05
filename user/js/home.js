@@ -14,11 +14,11 @@ function send() {
 }
 
 function validURL(longUrl) {
-    var pattern = new RegExp('^(https?:\\/\\/)?' + // protocol
-        '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.?)+[a-z]{2,}|' + // domain name
-        '((\\d{1,3}\\.){3}\\d{1,3}))' + // ip (v4) address
-        '(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*' + //port
-        '(\\?[;&amp;a-z\\d%_.~+=-]*)?' + // query string
+    var pattern = new RegExp('^(https?:\\/\\/)?' + 
+        '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.?)+[a-z]{2,}|' + 
+        '((\\d{1,3}\\.){3}\\d{1,3}))' + 
+        '(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*' + 
+        '(\\?[;&amp;a-z\\d%_.~+=-]*)?' + 
         '(\\#[-a-z\\d_]*)?$', 'i');
     if (pattern.test(longUrl)) {
         sillyFy(longUrl)
@@ -37,7 +37,7 @@ async function sillyFy(longLink) {
         req_by: user,
         longLink: longLink,
     }
-    let response = await fetch('https://nimmy-urlshortner.herokuapp.com/sillyFy', {
+    let response = await fetch('https://nimmy-urlshortner.herokuapp.com/nimmyFy', {
         method: 'POST',
         body: JSON.stringify(data),
         headers: {

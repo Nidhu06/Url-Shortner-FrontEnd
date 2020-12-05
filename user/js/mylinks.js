@@ -56,10 +56,10 @@ function displayResult(data) {
             <div class="col btns col-sm-12 p-0">
                 <div class="my-links-btns row m-0">
                     <div class="col-sm-6 p-0">
-                        <button type="button" onclick="copy('${link.longLink}')"  class="btn btn-dark btn-block">Copy Long Url &nbsp; <i class="fa fa-copy" aria-hidden="true"></i></button>
+                        <button type="button" onclick="copy('${link.longLink}')"  class="btn btn-block">Copy Long Url &nbsp; <i class="fa fa-copy" aria-hidden="true"></i></button>
                     </div>
                     <div class="col-sm-6 p-0">
-                        <button type="button"  onclick="copy('nimmy-urlshortner.herokuapp.com/fy/${link.shortLink}')" class="btn btn-dark btn-block">Copy SillyFyed Url &nbsp; <i class="fa fa-copy" aria-hidden="true"></i></button>
+                        <button type="button"  onclick="copy('nimmy-urlshortner.herokuapp.com/fy/${link.shortLink}')" class="btn btn-block">Copy Url &nbsp; <i class="fa fa-copy" aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
