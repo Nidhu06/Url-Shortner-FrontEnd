@@ -19,11 +19,11 @@
     <!-- font-awesome  -->
     <script src="https://use.fontawesome.com/d8a40b24d8.js"></script>
     <!-- font-awesome  -->
-    <title>UrlShortner | Login</title>
+    <title>UrlShortner| Admin Login</title>
 </head>
 
 <body>
-   
+
     <div id="message"></div>
     <nav class="navbar shadow navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">nimmy</a>
@@ -37,10 +37,10 @@
                     <a id="Login" class="nav-link" href="index.html">Login</a>
                 </li>
                 <li class="nav-item">
-                    <a  id="SignUp" class="nav-link" href="signup.html">Signup</a>
+                    <a id="SignUp" class="nav-link" href="signup.html">Signup</a>
                 </li>
                 <li class="nav-item">
-                    <a  id="admin" class="nav-link" href="admin.html">Admin</a>
+                    <a id="admin" class="nav-link" href="admin.html">Admin</a>
                 </li>
             </ul>
         </div>
@@ -50,20 +50,17 @@
     <div class="container-fluid">
         <div class="card bg-light col-lg-4 col-sm-10" style="margin:auto;">
             <div class="card-header">
-                <h4>Login</h4>
+                <h4>Admin Login</h4>
             </div>
             <div class="card-body">
                 <p class="card-text">
-                   <form id="Login-Form" autocomplete="off">
+                <form id="Login-Form" autocomplete="off">
                     <div class="row">
                         <div class="col">
                             <div class="form-group">
                                 <label for="email">Email address</label>
-                                <input type="email" class="form-control" id="email"
+                                <input type="email" class="form-control" id="email" value="peahen@nimmy.com" disabled
                                     aria-describedby="email" required>
-                                <small id="emailHelp" class="form-text text-muted text-right">(We'll never share your email with
-                                    anyone
-                                    else.)</small>
                             </div>
                         </div>
                     </div>
@@ -83,25 +80,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row text-center">
-                        <div class="col">
-                            <p>
-                                <small>
-                                    Forgot your Password?<br>
-                                    <a href="Auth/resetpassword.html">Reset Password</a>
-                                </small>
-                            </p>
-                        </div>
-                        <div class="col">
-                            <p>
-                                <small>
-                                    Don't have an Account??<br>
-                                    <a href="./signup.html">Sign Up Now</a>
-                                </small>
-                            </p>
-                        </div>
-                     </div>
-                  </form>
+                </form>
                 </p>
             </div>
         </div>
