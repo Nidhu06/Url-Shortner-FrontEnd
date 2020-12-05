@@ -89,10 +89,10 @@ function displayResult(res) {
         <div class="col btns col-sm-12 p-0">
             <div class="my-links-btns row m-0">
                 <div class="col-sm-6 p-0">
-                    <button type="button" onclick="copy('${res.longLink}')" class="btn btn-block">Copy Long Url &nbsp; <i class="fa fa-clone" aria-hidden="true"></i></button>
+                    <button type="button" onclick="copy('${res.longLink}')" class="btn btn-dark btn-block">Copy Long Url &nbsp; <i class="fa fa-clone" aria-hidden="true"></i></button>
                 </div>
                 <div class="col-sm-6 p-0">
-                    <button type="button" onclick="copy('${res.shortLink}')" class="btn btn-block">Copy Shortened  Url &nbsp; <i class="fa fa-clone" aria-hidden="true"></i></button>
+                    <button type="button" onclick="copy('${res.shortLink}')" class="btn btn-dark btn-block">Copy Shortened  Url &nbsp; <i class="fa fa-clone" aria-hidden="true"></i></button>
                 </div>
             </div>
         </div>
