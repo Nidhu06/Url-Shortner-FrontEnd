@@ -7,7 +7,7 @@ function send() {
     const Longlink = document.getElementById('Longlink').value;
     if (!Longlink) {
         custom_alert('warning', 'Empty Field !!');
-        btn.innerHTML = "SillyFy"
+        btn.innerHTML = "OhNo"
     } else {
         validURL(Longlink)
     }
