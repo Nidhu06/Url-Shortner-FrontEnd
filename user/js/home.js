@@ -24,7 +24,7 @@ function validURL(longUrl) {
         sillyFy(longUrl)
     } else {
         custom_alert('warning', 'Invalid Url !!')
-        btn.innerHTML = "SillyFy"
+        btn.innerHTML = "OhNo"
     }
 }
 
@@ -47,7 +47,7 @@ async function sillyFy(longLink) {
     let res = await response.json()
     custom_alert(res.type_, res.message);
     if (res.type_ == 'success') {
-        sendbtn.innerHTML = 'SillyFy'
+        sendbtn.innerHTML = 'Yippee'
         sendbtn.disabled = false
         displayResult(res)
     }
