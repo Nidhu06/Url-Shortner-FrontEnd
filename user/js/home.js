@@ -63,7 +63,7 @@ function displayResult(res) {
         <div class="short-link row p-2 m-0 text-center">
             <div class="col-lg-6  col-sm-12">
                 <span class="description">
-                    SillyFyed Url
+                    Shortened Url
                 </span><br>
                 <small>
                     <a href="${res.shortLink}">${res.shortLink}</a>
@@ -71,7 +71,7 @@ function displayResult(res) {
             </div>
             <div class="col-lg-6 col-sm-12">
                 <span class="description">
-                    SillyFyed On 
+                Shortened  On 
                 </span><br>
                 <span style="color:hsl(300, 24%, 80%);">
                     ${res.date}
@@ -92,7 +92,7 @@ function displayResult(res) {
                     <button type="button" onclick="copy('${res.longLink}')" class="btn btn-block">Copy Long Url &nbsp; <i class="fa fa-clone" aria-hidden="true"></i></button>
                 </div>
                 <div class="col-sm-6 p-0">
-                    <button type="button" onclick="copy('${res.shortLink}')" class="btn btn-block">Copy SillyFyed Url &nbsp; <i class="fa fa-clone" aria-hidden="true"></i></button>
+                    <button type="button" onclick="copy('${res.shortLink}')" class="btn btn-block">Copy Shortened  Url &nbsp; <i class="fa fa-clone" aria-hidden="true"></i></button>
                 </div>
             </div>
         </div>
